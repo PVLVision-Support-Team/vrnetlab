@@ -1,6 +1,17 @@
 # Enterprise SONiC Linux Distribution by PLVision
 
-This is the vrnetlab docker image for [Enterprise SONiC Linux Distribution by PLVision](https://plvision.eu/sonic-lite).
+This directory provides a vrnetlab wrapper for running [Enterprise SONiC Linux Distribution by PLVision](https://plvision.eu/sonic-lite) as a Containerlab-compatible virtual network operating system. 
+
+## Overview 
+`Enterprise SONiC Linux Distribution by PLVision` is an optimized SONiC distribution designed for:
+
+- Access switches
+- Out-of-band management switches
+- Campus deployments
+- Edge deployments
+- Resource-constrained platforms
+
+The virtual appliance is packaged as a QEMU virtual machine and executed inside a Docker container through vrnetlab.
 
 ## Building the docker image
 
